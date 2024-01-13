@@ -1,0 +1,58 @@
+body{
+    background-image: url("./img/gamers.avif");
+    background-size: cover;    
+}
+.row{
+    margin-top: 50px;
+}
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+.card {
+    height: 100%;
+    padding: 5px;
+    background-color: lightpink;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.btn-action {
+    margin-top: auto;
+}
+img {
+    height: 40%;
+    border: 4px solid black;
+}
+.pull-left{
+    color: white;
+}
+.title-box {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 6px double white;
+    border-radius: 5px;
+    height:90px;
+}
+
+.form-box {
+    background-color: lightpink;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box {
+    background-color: lightpink;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+.botones{
+    display: flex;
+    text-align: center;
+    justify-content: end;
+}
