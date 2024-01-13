@@ -1,9 +1,5 @@
 {
-    "version": 2,
-    "builds": [
-        {"src": "/api/index.php", "use": "vercel-php@0.5.2"},
-        {"src": "/img/**", "use": "@vercel/static"}
-    ],
+    "version": 2,    
     "routes": [
         {
             "src": "/(css|js)/(.*)",
